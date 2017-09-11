@@ -18,6 +18,7 @@ matrix:
   fast_finish: true
   include:
     - env: RUBY_VERSION=ruby-2.3 OPENSSL_VERSION=openssl-1.0.2
+    - env: RUBY_VERSION=ruby-2.3 OPENSSL_VERSION=openssl-1.1.0
     - env: RUBY_VERSION=ruby-2.4 OPENSSL_VERSION=openssl-1.0.1
     - env: RUBY_VERSION=ruby-2.4 OPENSSL_VERSION=openssl-1.0.2
     - env: RUBY_VERSION=ruby-2.4 OPENSSL_VERSION=openssl-1.1.0
